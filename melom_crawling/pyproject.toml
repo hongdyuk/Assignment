@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "melom-crawling"
+version = "0.1.0"
+description = ""
+authors = ["Donggurii._.dd <ehdgur741@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+selenium = "^4.23.1"
+webdriver-manager = "^4.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
